@@ -31,4 +31,10 @@ These apps use connectors instead of plugins. In Margin, open **Agent › Connec
 npx -y add-mcp https://margin.timganiev.com/mcp -n margin
 ```
 
-The skill on its own lives at [`plugins/margin/skills/margin/SKILL.md`](plugins/margin/skills/margin/SKILL.md). Copy it into `~/.agents/skills/margin/` or your agent's skills folder.
+To add the Margin skill on its own (Cursor, Codex, Claude Code and others), use [skills.sh](https://skills.sh):
+
+```sh
+npx skills add esceptico/margin-plugins --skill margin
+```
+
+The skill lives at [`plugins/margin/skills/margin/SKILL.md`](plugins/margin/skills/margin/SKILL.md).
