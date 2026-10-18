@@ -1,0 +1,6 @@
+{
+  "name": "margin",
+  "owner": { "name": "Timur Ganiev", "url": "https://margin.timganiev.com" },
+  "metadata": { "description": "Margin is an iPad drawing board your agent can read and answer on.", "version": "0.1.0" },
+  "plugins": [{ "name": "margin", "source": "./plugins/margin", "description": "Your pen drawing board, for agents: read what you shared, answer beside it, and propose marks, plots and diagrams." }]
+}

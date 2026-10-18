@@ -1,0 +1,31 @@
+{
+  "name": "margin",
+  "version": "0.1.0",
+  "description": "Your pen drawing board, for agents: read what you shared, answer beside it, and propose marks, plots and diagrams.",
+  "author": { "name": "Timur Ganiev", "url": "https://margin.timganiev.com" },
+  "homepage": "https://margin.timganiev.com",
+  "repository": "https://github.com/esceptico/margin-plugins.git",
+  "license": "MIT",
+  "keywords": ["margin", "drawing", "whiteboard", "ipad", "pencil", "sketch", "handwriting", "diagram", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.codex.json",
+  "interface": {
+    "displayName": "Margin",
+    "shortDescription": "Your drawing board, for Codex to read and answer on.",
+    "longDescription": "Margin is a pen drawing board for the iPad. With this plugin, Codex reads the drawing you shared (an overview image, a close crop of what you selected, and stroke positions), answers with short notes pinned beside it, keeps a small memory of the board's goal and decisions, and can propose marks, plots and diagrams that stay faint until you keep them.",
+    "developerName": "Timur Ganiev",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://margin.timganiev.com",
+    "privacyPolicyURL": "https://margin.timganiev.com/privacy",
+    "termsOfServiceURL": "https://margin.timganiev.com/terms",
+    "brandColor": "#2E433B",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg",
+    "defaultPrompt": [
+      "Check my Margin board and answer my question",
+      "Look at what I circled on my board and explain it",
+      "Plot the function I wrote on my board"
+    ]
+  }
+}
