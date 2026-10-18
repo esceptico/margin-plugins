@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.esceptico/margin",
+  "title": "Margin",
+  "description": "A pen drawing board your agent can see: read shared drawings, reply beside them, suggest marks.",
+  "websiteUrl": "https://margin.timganiev.com",
+  "repository": {
+    "url": "https://github.com/esceptico/margin-plugins",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://margin.timganiev.com/mcp"
+    }
+  ]
+}
