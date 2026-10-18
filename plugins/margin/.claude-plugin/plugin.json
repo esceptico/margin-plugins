@@ -2,10 +2,11 @@
   "name": "margin",
   "version": "0.1.0",
   "description": "Your pen drawing board, for agents: read what you shared, answer beside it, and propose marks, plots and diagrams.",
-  "author": { "name": "Timur Ganiev", "url": "https://margin.timganiev.com" },
+  "author": {
+    "name": "Timur Ganiev",
+    "url": "https://margin.timganiev.com"
+  },
   "homepage": "https://margin.timganiev.com",
-  "repository": "https://github.com/esceptico/margin-plugins",
   "license": "MIT",
-  "keywords": ["margin", "drawing", "whiteboard", "ipad", "pencil", "sketch", "handwriting", "diagram", "mcp"],
   "mcpServers": "./mcp.claude.json"
 }

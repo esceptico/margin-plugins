@@ -21,10 +21,6 @@ codex plugin add margin@margin
 codex mcp login margin
 ```
 
-## Cursor
-
-Open **Settings › Plugins**, add the marketplace `esceptico/margin-plugins`, and install **Margin**.
-
 ## Claude and ChatGPT (web and desktop)
 
 These apps use connectors instead of plugins. In Margin, open **Agent › Connect** and follow the steps for your app.
@@ -36,7 +32,3 @@ npx -y add-mcp https://margin.timganiev.com/mcp -n margin
 ```
 
 The skill on its own lives at [`plugins/margin/skills/margin/SKILL.md`](plugins/margin/skills/margin/SKILL.md). Copy it into `~/.agents/skills/margin/` or your agent's skills folder.
-
-## Checks
-
-`node scripts/validate.mjs` checks every manifest, the paths they point to, and the skill. CI runs it on each push.
